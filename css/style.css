@@ -1,0 +1,53 @@
+body{
+    color: #434455;
+    font-family: "Roboto" sans-serif;
+    background-color: #FFF
+}
+.logo-web{
+    color: #4D5AE5;
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1,16;
+        text-transform: uppercase;
+}
+.logo-studio{
+    color: #2E2F42;
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1,16;
+        text-transform: uppercase;
+}
+.link{
+color: #2E2F42;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1,5;
+}
+.contacts-link{
+    color: #434455;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1,5;
+}
+.main-title.title{
+    color:#FFF;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 700;
+line-height: 1,07;
+}
+
+
+
+
+
+
+
+
+
+
