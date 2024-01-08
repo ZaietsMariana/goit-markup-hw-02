@@ -9,6 +9,7 @@ body{
         font-size: 18px;
         font-weight: 700;
         line-height: 1,16;
+        letter-spacing: 0.54px;
         text-transform: uppercase;
 }
 .logo-studio{
@@ -18,15 +19,35 @@ body{
         font-style: normal;
         font-weight: 700;
         line-height: 1,16;
+        letter-spacing: 0.54px;
         text-transform: uppercase;
 }
+
 .link{
 color: #2E2F42;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 1,5;
+    letter-spacing: 0.32px;
 }
+
+.two-navigation .link:hover{
+color: #404BBF;
+}
+
+.three-navigation .link:hover{
+color: #404BBF;
+}
+
+.one-navigation .link:hover{
+color: #404BBF;
+}
+
+.one-navigation .link:active{
+color: #404BBF;
+}
+
 .contacts-link{
     color: #434455;
         font-size: 16px;
@@ -35,34 +56,62 @@ color: #2E2F42;
         line-height: 1,5;
 }
 
+.contacts-link:hover{
+color: #404BBF;
+}
+
+.name{
+background: #2E2F42;
+}
+
+.title {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1, 07;
+    text-align: center;
+    letter-spacing: 1.12px;
+}
+
 .button{
     cursor: pointer;
-}
-
-.title{
-    color:#FFF;
-        font-size: 56px;
-        font-style: normal;
-        font-weight: 700;
-line-height: 1,07;
-}
-
-.strengths .third-title{
-color: #2E2F42;
-    font-size: 20px;
+    color: #FFF;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 1,2;
+    line-height: 1,5;
+    letter-spacing: 0.64px;
+    border-radius: 4px;
+    background: var(--IRIS, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
-.strengths .text{
-color: #434455;
+.button:hover{
+border-radius: 4px;
+background: var(--OCEAN, #404BBF);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.third-title{
+    color: #2E2F42;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1,2;
+        letter-spacing: 0.4px;
+ }
+
+ .text{
+color:#434455;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 1,5;
-}
-
+    letter-spacing: 0.32px;
+ }
+ 
 
 
 
