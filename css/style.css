@@ -34,7 +34,12 @@ color: #2E2F42;
         font-weight: 400;
         line-height: 1,5;
 }
-.main-title.title{
+
+.button{
+    cursor: pointer;
+}
+
+.title{
     color:#FFF;
         font-size: 56px;
         font-style: normal;
@@ -42,6 +47,21 @@ color: #2E2F42;
 line-height: 1,07;
 }
 
+.strengths .third-title{
+color: #2E2F42;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1,2;
+}
+
+.strengths .text{
+color: #434455;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1,5;
+}
 
 
 
